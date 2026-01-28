@@ -9,6 +9,7 @@ while True:
 
     print("1. Suma")
     print("2. Resta")
+    print("3. Salir")
     
     operation = input("")
 
@@ -24,5 +25,12 @@ while True:
             n1 = int(input("Primer numero: "))
             n2 = int(input("Segundo numero: "))
             print(f"La suma de {n1 + n2} = ",resta(n1,n2))
+
+        case "3":
+            print("Adios!")
+            break
+
+        case _:
+            print("No es una opcion")
 
 
